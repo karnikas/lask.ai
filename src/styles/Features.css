@@ -63,19 +63,19 @@ h3 {
 
 /* Different Backgrounds for Each Feature with Transparency */
 .feature-item:nth-child(1) {
-  background: linear-gradient(339deg, rgba(25, 209, 242, 0.3), rgba(3, 90, 197, 0.3)); /* Blue gradient with 70% opacity */
+  background: linear-gradient(339deg, #5e548e, rgba(25, 209, 242, 0.3)); /* Blue gradient with 70% opacity */
 }
 
 .feature-item:nth-child(2) {
-  background: linear-gradient(339deg, rgba(255, 0, 0, 0.3), rgba(250, 3, 3, 0.3)); /* Orange gradient with 70% opacity */
+  background: linear-gradient(339deg, #5e548e, rgba(36, 25, 242, 0.3)); /* Orange gradient with 70% opacity */
 }
 
 .feature-item:nth-child(3) {
-  background: linear-gradient(339deg, rgba(82, 17, 147, 0.3), rgba(141, 2, 255, 0.3)); /* Purple gradient with 70% opacity */
+  background: linear-gradient(339deg, #5e548e, rgba(82, 17, 147, 0.3)); /* Purple gradient with 70% opacity */
 }
 
 .feature-item:nth-child(4) {
-  background: linear-gradient(339deg, rgba(9, 227, 89, 0.3), rgba(6, 250, 181, 0.3)); /* Green gradient with 70% opacity */
+  background: linear-gradient(339deg, #5e548e, rgba(9, 227, 89, 0.3)); /* Green gradient with 70% opacity */
 }
 
 /* Hover effect for feature items */
