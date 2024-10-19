@@ -55,7 +55,7 @@ const FuturisticTheme = () => {
                     <div className="feature-description">
                             <h3>Easy Commenting</h3>
                             <p>
-                                Comment or Ucomment code automatically, which makes it more hands-on and readable, and makes it easier to maintain.
+                                Comment code automatically, which makes it more hands-on and readable, and makes it easier to maintain.
                             </p>
                         </div>
                         <video autoPlay loop muted className="feature-video">

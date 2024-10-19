@@ -150,7 +150,7 @@ body{
 /* Container for the gradient background and button */
 .button-container {
   position: relative;
-  display: none; /* hidden by default, use media queries to show */
+  display: inline-flex; /* hidden by default, use media queries to show */
 }
 
 @media (min-width: 768px) {

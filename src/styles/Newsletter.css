@@ -1,111 +1,99 @@
 /* General Styling */
 body {
-    margin: 0;
-    font-family: 'Questrial', sans-serif;
-    background-color: #000; /* Dark background */
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+  background-color: #000; /* Dark background */
 }
 
 /* Notification Section */
 .notification-container {
-    padding:10px;
-    margin:10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 50vh;
-    text-align: left;
-    margin: 50px 100px;
-    padding-left: 50px;
-    margin-bottom:80px;
-    border-radius: 15px;
-    background: linear-gradient(145deg, #19191a, #000000);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 50vh;
+  text-align: left;
+  margin: 50px auto; /* Center the banner */
+  width: 90%; /* Full width on small screens */
+  border-radius: 15px;
+  background: linear-gradient(145deg, #19191a, #000000);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  padding-left: 40px; /* Shift contents to the right */
 }
 
 .notification-container h1 {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 10px;
+  font-size: 2rem; /* Responsive font size */
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 .notification-container p {
-    font-size: 1.2rem;
-    color: #cfcfcf;
-    margin-bottom: 20px;
+  font-size: 1rem; /* Responsive font size */
+  color: #cfcfcf;
+  margin-bottom: 20px;
 }
 
 .email-input-section {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .email-input-section input {
-    padding: 10px 20px;
-    border: 1px solid #ddd;
-    border-radius: 40px;
-    width: 300px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  flex: 1; /* Input takes up remaining space */
+  box-sizing: border-box; /* Ensure padding and width work together */
 }
 
-/* Gradient background */
-/* Container for gradient effect and button */
-.button-container {
-    position: relative;
-    display: inline-flex;
-    margin-top: 2rem; /* mt-8 */
+.button2 {
+  padding: 10px 25px; /* Adjust padding for better alignment */
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 9999px; /* Fully rounded */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2:hover {
+  background-color: #1f2937; /* Slightly darker black on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .notification-container h1 {
+    font-size: 1.5rem;
   }
-  
-  /* Background gradient */
-  /* Container for the gradient background and button */
-  .button-container {
-    position: relative;
-    display: inline-flex;
-    margin-left: 20px;
+
+  .notification-container p {
+    font-size: 0.9rem;
   }
-  
-  @media (min-width: 768px) {
-    .button-container {
-      display: inline-flex; /* Show button on medium and larger screens */
-    }
+
+  .email-input-section {
+    flex-direction: column; /* Stack input and button on smaller screens */
+    align-items: stretch;
   }
-  
-  /* Gradient background */
-  .button-background {
-    position: absolute;
-    top: -1px;
-    right: -1px;
-    bottom: -1px;
-    left: -1px;
-    border-radius: 9999px; /* Full rounded corners */
-    background: linear-gradient(to right, #06b6d4, #a855f7); /* from-cyan-500 to-purple-500 */
-    transition: all 0.2s ease; /* Smooth transition for shadow */
+
+  .email-input-section input {
+    width: 100%; /* Full width input */
+    margin-bottom: 10px; /* Add margin for spacing */
   }
-  
-  .button-background:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+
+  .button2 {
+    width: 100%; /* Full width button on smaller screens */
   }
-  
-  /* Button */
-  .button {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem 1.5rem; /* px-6 py-2 */
-    font-size: 1rem; /* text-base */
-    font-weight: normal; /* font-normal */
-    color: white;
-    background-color: black;
-    border: 1px solid transparent;
-    border-radius: 9999px; /* Fully rounded */
-    cursor: pointer;
-    transition: background-color 0.2s ease; /* Smooth background change */
-  }
-  
-  .button:hover {
-    background-color: #1f2937; /* Slightly darker black on hover */
-  }
-  
-  
+}

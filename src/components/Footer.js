@@ -10,10 +10,10 @@ const Footer = () => {
                 <h3 className="footer-title" id="footer-title-product">Product</h3>
                 <ul className="footer-list">
                     <li>
-                        <a className="Link--secondary" href="/features/copilot">Copilot</a>
+                        {/* <a className="Link--secondary" href="/features/copilot">Copilot</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/marketplace">Marketplace</a>
+                        {/* <a className="Link--secondary" href="/marketplace">Marketplace</a> */}
                     </li>
                     <li>
                         <a className="Link--secondary" href="/pricing">Pricing</a>
@@ -31,19 +31,19 @@ const Footer = () => {
                         <a className="Link--secondary" href="/support">Support</a>
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/learning">Learning Lab</a>
+                        {/* <a className="Link--secondary" href="/learning">Learning Lab</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="https://github.blog/">Blog</a>
+                        {/* <a className="Link--secondary" href="https://github.blog/">Blog</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/changelog">Changelog</a>
+                        {/* <a className="Link--secondary" href="/changelog">Changelog</a> */}
                     </li>
                     <li>
                         <a className="Link--secondary" href="/security">Security</a>
                     </li>
                     <li>
-                        <a className="Link--secondary" href="https://www.githubstatus.com/">Status</a>
+                        {/* <a className="Link--secondary" href="https://www.githubstatus.com/">Github</a> */}
                     </li>
                 </ul>
             </nav>
@@ -52,13 +52,13 @@ const Footer = () => {
                 <h3 className="footer-title" id="footer-title-company">Company</h3>
                 <ul className="footer-list">
                     <li>
-                        <a className="Link--secondary" href="/careers">Careers</a>
+                        {/* <a className="Link--secondary" href="/careers">Careers</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/press">Press</a>
+                        {/* <a className="Link--secondary" href="/press">Press</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/partners">Partners</a>
+                        {/* <a className="Link--secondary" href="/partners">Partners</a> */}
                     </li>
                     <li>
                         <a className="Link--secondary" href="/privacy">Privacy</a>

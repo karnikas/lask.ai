@@ -12,11 +12,6 @@ h3 {
 }
 
 /* Features Section */
-/* .lask-features {
-  padding: 70px;
-  text-align: center;
-} */
-
 .lask-features h2 {
   font-size: 3.5rem;
   color: #ffffff;
@@ -32,8 +27,9 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 40px; /* Add spacing between the feature items */
-  width: 1300px;
-  margin-top: 50px;
+  width: 100%; /* Full width for responsiveness */
+  max-width: 1300px; /* Limit maximum width */
+  margin: 50px auto; /* Center with margin */
 }
 
 /* Feature-item styling */
@@ -48,13 +44,11 @@ h3 {
   width: 90%; /* Set width to 90% of the parent container */
   max-width: 1200px; /* Optional: limit the maximum width */
   margin: 0 auto 40px; /* Center the feature item horizontally */
-  /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
   padding-top: 20px;
 }
 
 /* Features Section */
 .lask-features {
-  /* padding: 70px; */
   text-align: center;
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
@@ -80,13 +74,12 @@ h3 {
 
 /* Hover effect for feature items */
 .feature-item:hover {
-  /* transform: scale(1.05); Slightly scale up on hover */
   box-shadow: 0 12px 30px rgba(255, 255, 255, 0.3); /* Enhanced shadow */
 }
 
 /* Make the video occupy more space */
 .feature-video {
-  width: 110%; /* Ensure it takes full width */
+  width: 100%; /* Ensure it takes full width */
   max-width: 1000px; /* Set max width to ensure it looks good on large screens */
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -128,20 +121,6 @@ h3 {
   margin: 0 auto; /* Center the container */
 }
 
-/* Footer */
-.lask-footer {
-  padding: 50px;
-  text-align: center;
-  background-color: #101010;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.lask-footer p {
-  margin: 0;
-  color: #c7c7c7;
-  font-size: 1.2rem;
-}
-
 /* Gradient background for the button container */
 .button-container {
   position: relative;
@@ -175,22 +154,46 @@ h3 {
   padding: 0.5rem 1.5rem; /* px-6 py-2 */
   font-size: 1rem; /* text-base */
   font-weight: normal;
-  color: white;
-  background-color: black;
-  border: 1px solid transparent;
-  border-radius: 9999px; /* Fully rounded */
-  cursor: pointer;
-  transition: background-color 0.2s ease; /* Smooth background change */
+  color: white; /* Text color */
+  background-color: transparent; /* Make button background transparent */
+  border: none; /* No border */
+  border-radius: 9999px; /* Fully rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  z-index: 10; /* Ensure button is on top of the gradient */
 }
 
-/* Button hover effect */
-.button:hover {
-  background-color: #1f2937; /* Slightly darker black on hover */
-}
+/* Responsive Styling */
+@media (min-width: 500px) {
+  /* Styles for small screens */
+  .feature-item {
+    flex-direction: column; /* Align items side by side */
+    gap: 20px; /* Space between description and video */
+    font-size: small;
+  }
 
-/* Responsive button container on medium and larger screens */
-@media (min-width: 768px) {
-  .button-container {
-      display: inline-flex; /* Show button on medium and larger screens */
+  .feature-description h3 {
+    font-size: 1.8rem; /* Responsive font size for heading */
+  }
+
+  .feature-description p {
+    font-size: 1.4rem; /* Responsive font size for description */
   }
 }
+
+@media (min-width: 1024px) {
+  /* Styles for medium to large screens */
+  .lask-features h2 {
+    font-size: 4rem; /* Larger heading */
+  }
+
+  .feature-description h3 {
+    font-size: 2.5rem; /* Even larger heading for large screens */
+  }
+
+  .feature-description p {
+    font-size: 1.6rem; /* Responsive font size for description */
+  }
+}
+
+
+
