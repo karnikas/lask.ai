@@ -35,8 +35,6 @@ const Hero = () => {
 
                 {/* Replacing the LASK.AI heading with SparklesText */}
                 <h3 className="typewriter-container title"> LASK.AI </h3>
-
-
               
             <p className="hero-description">
               From real-time code generation to smart fixing, LASK AI provides intelligent, context-aware outputs that

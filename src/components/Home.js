@@ -3,6 +3,8 @@ import Hero from './Hero';
 import  Short from './Short';   
 import Newsletter from './Newsletter';
 import Features from './Features';
+import HeroVideoDialog from './magicui/Video'; // Adjust the path accordingly
+
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
 
       <Hero/>
       {/* <Short/> */}
+ 
       <Features/>
       <Newsletter/>
 

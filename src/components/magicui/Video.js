@@ -101,9 +101,28 @@ export default function HeroVideoDialog({
               transition={{ type: "spring", damping: 30, stiffness: 300 }}
               className="relative w-full max-w-4xl aspect-video mx-4 md:mx-0"
             >
-              <motion.button className="absolute -top-16 right-0 text-white text-xl bg-neutral-900/50 ring-1 backdrop-blur-md rounded-full p-2 dark:bg-neutral-100/50 dark:text-black">
+              {/* <motion.button className="absolute -top-16 right-0 text-white text-xl bg-neutral-900/50 ring-1 backdrop-blur-md rounded-full p-2 dark:bg-neutral-100/50 dark:text-black">
                 <XIcon className="size-5" />
+              </motion.button> */}
+              {/* 
+              <motion.button
+                className="absolute top-4 right-4 text-white text-xl bg-neutral-900/50 ring-1 backdrop-blur-md rounded-full p-1 dark:bg-neutral-100/50 dark:text-black flex items-center justify-center">
+                <XIcon className="size-5" />
+              </motion.button> */}
+
+              {/* <motion.button
+                className="absolute -top-10 right-2 z-10 text-white text-xl bg-neutral-900/50 ring-1 backdrop-blur-md rounded-full p-1 dark:bg-neutral-100/50 dark:text-black flex items-center justify-center w-10 h-10">
+                <XIcon className="w-4 h-4" />
+              </motion.button> */}
+
+
+              <motion.button
+                className="items-center justify-center z-10 text-white text-xl bg-neutral-900/50 ring-1 backdrop-blur-md rounded-full w-12 h-12"> {/* Increased width and height */}
+                <XIcon className="w-6 h-6" /> {/* Adjusted icon size if necessary */}
               </motion.button>
+
+
+
               <div className="size-full border-2 border-white rounded-2xl overflow-hidden isolate z-[1] relative">
                 <iframe
                   src={videoSrc}
