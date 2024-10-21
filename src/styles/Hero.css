@@ -6,7 +6,7 @@ body{
 .hero-header {
   /* padding-top: 1rem; */
   /* padding-bottom: 1rem; */
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* Typewriter effect */
@@ -73,7 +73,7 @@ body{
 .hero-section {
   padding-top: 50px;
   /* padding-bottom: 6rem; sm:pb-16 lg:pb-20 xl:pb-24 in Tailwind */
-  background-color: black;
+  /* background-color: black; */
   /* new */
   position: relative;
   overflow: hidden; /* To ensure background doesn't spill over */
@@ -107,7 +107,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%); */
   z-index: 1; /* Ensure it stays above the dots */
 }
 

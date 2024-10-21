@@ -41,10 +41,11 @@ h3 {
   text-align: center; /* Center text inside the box */
   border-radius: 20px; /* Rounded corners */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  width: 90%; /* Set width to 90% of the parent container */
-  max-width: 1200px; /* Optional: limit the maximum width */
+  width: 100%; /* Set width to 90% of the parent container */
+  max-width: 1500px; /* Optional: limit the maximum width */
   margin: 0 auto 40px; /* Center the feature item horizontally */
   padding-top: 20px;
+  background: #056159;
 }
 
 /* Features Section */
@@ -55,22 +56,6 @@ h3 {
   align-items: center; /* Center child elements */
 }
 
-/* Different Backgrounds for Each Feature with Transparency */
-.feature-item:nth-child(1) {
-  background: linear-gradient(339deg, #5e548e, rgba(25, 209, 242, 0.3)); /* Blue gradient with 70% opacity */
-}
-
-.feature-item:nth-child(2) {
-  background: linear-gradient(339deg, #5e548e, rgba(36, 25, 242, 0.3)); /* Orange gradient with 70% opacity */
-}
-
-.feature-item:nth-child(3) {
-  background: linear-gradient(339deg, #5e548e, rgba(82, 17, 147, 0.3)); /* Purple gradient with 70% opacity */
-}
-
-.feature-item:nth-child(4) {
-  background: linear-gradient(339deg, #5e548e, rgba(9, 227, 89, 0.3)); /* Green gradient with 70% opacity */
-}
 
 /* Hover effect for feature items */
 .feature-item:hover {
