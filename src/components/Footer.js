@@ -16,10 +16,10 @@ const Footer = () => {
                         {/* <a className="Link--secondary" href="/marketplace">Marketplace</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/pricing">Pricing</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">Pricing</a>
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/about">About</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">About</a>
                     </li>
                 </ul>
             </nav>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <h3 className="footer-title" id="footer-title-resources">Resources</h3>
                 <ul className="footer-list">
                     <li>
-                        <a className="Link--secondary" href="/support">Support</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">Support</a>
                     </li>
                     <li>
                         {/* <a className="Link--secondary" href="/learning">Learning Lab</a> */}
@@ -40,7 +40,7 @@ const Footer = () => {
                         {/* <a className="Link--secondary" href="/changelog">Changelog</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/security">Security</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">Security</a>
                     </li>
                     <li>
                         {/* <a className="Link--secondary" href="https://www.githubstatus.com/">Github</a> */}
@@ -61,10 +61,10 @@ const Footer = () => {
                         {/* <a className="Link--secondary" href="/partners">Partners</a> */}
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/privacy">Privacy</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">Privacy</a>
                     </li>
                     <li>
-                        <a className="Link--secondary" href="/terms">Terms</a>
+                        <a className="Link--secondary" href="https://www.valuebound.com/" target="_blank">Terms</a>
                     </li>
                 </ul>
             </nav>

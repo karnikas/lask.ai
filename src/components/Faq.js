@@ -17,16 +17,12 @@ const FAQ = () => {
             answer: "Yes, LASK.AI supports multiple programming languages including JavaScript, Python, and more."
         },
         {
-            question: "Can LASK.AI help with code documentation?",
-            answer: "Absolutely! LASK.AI automatically generates comments and documentation for your code, helping you maintain readability and good practices."
-        },
-        {
             question: "What type of code errors can LASK.AI detect?",
             answer: "LASK.AI can detect syntax errors, logical issues, and potential bugs. It can also suggest improvements for code optimization and readability."
         },
         {
             question: "How does LASK.AI integrate with development environments?",
-            answer: "LASK.AI integrates seamlessly with popular IDEs like VS Code and IntelliJ IDEA through plugins or extensions, providing real-time support during coding sessions."
+            answer: "LASK.AI integrates seamlessly with popular IDEs like VS Code through extension, providing real-time support during coding sessions."
         },
         {
             question: "Can LASK.AI be customized for my company’s codebase?",

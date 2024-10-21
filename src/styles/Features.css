@@ -7,19 +7,18 @@ body {
   font-weight: 400;
 }
 
-h3 {
-  font-size: 1.5rem; /* Bigger font for premium look */
-}
 
 /* Features Section */
 .lask-features h2 {
   font-size: 3.5rem;
-  color: #ffffff;
+  /* color: #ffffff; */
   letter-spacing: 2px;
   font-weight: 700;
-  background: linear-gradient(8deg, #24282d, #ffffff);
+  background: white;
+  /* background: linear-gradient(8deg, #24282d, #ffffff); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom:-40px;
 }
 
 /* Feature List */
@@ -43,9 +42,10 @@ h3 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   width: 100%; /* Set width to 90% of the parent container */
   max-width: 1500px; /* Optional: limit the maximum width */
-  margin: 0 auto 40px; /* Center the feature item horizontally */
+  margin-top: 40px; /* Center the feature item horizontally */
   padding-top: 20px;
-  background: #056159;
+  /* background: #056159; */
+  background: #053561;
 }
 
 /* Features Section */
@@ -86,7 +86,7 @@ h3 {
 
 /* Feature Heading Styling */
 .feature-description h3 {
-  font-size: 2rem; /* Medium-sized heading */
+  font-size: 1.75rem; /* Medium-sized heading */
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -152,16 +152,16 @@ h3 {
   /* Styles for small screens */
   .feature-item {
     flex-direction: column; /* Align items side by side */
-    gap: 20px; /* Space between description and video */
+    /* gap: 20px; Space between description and video */
     font-size: small;
   }
 
   .feature-description h3 {
-    font-size: 1.8rem; /* Responsive font size for heading */
+    font-size: 1.1rem; /* Responsive font size for heading */
   }
 
   .feature-description p {
-    font-size: 1.4rem; /* Responsive font size for description */
+    font-size: 0.8rem; /* Responsive font size for description */
   }
 }
 
@@ -172,11 +172,11 @@ h3 {
   }
 
   .feature-description h3 {
-    font-size: 2.5rem; /* Even larger heading for large screens */
+    font-size: 2.0rem; /* Even larger heading for large screens */
   }
 
   .feature-description p {
-    font-size: 1.6rem; /* Responsive font size for description */
+    font-size: 1.3rem; /* Responsive font size for description */
   }
 }
 

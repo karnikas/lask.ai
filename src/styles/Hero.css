@@ -3,11 +3,6 @@ body{
   font-family: 'Questrial', sans-serif;
   font-weight: 400;
 }
-.hero-header {
-  /* padding-top: 1rem; */
-  /* padding-bottom: 1rem; */
-  /* background-color: black; */
-}
 
 /* Typewriter effect */
 .typewriter-container {
@@ -69,6 +64,8 @@ body{
   padding-right: 1rem;
 }
 
+
+
 /* Hero section styling */
 .hero-section {
   padding-top: 50px;
@@ -94,10 +91,7 @@ body{
   /* opacity: 0.3; Adjust the visibility of the dots */
   z-index: 1; /* Ensure dots stay behind content */
 }
-/* Fading effect for dots */
-/* .hero-section::before {
-  background-image: radial-gradient(circle, rgba(137, 91, 196, 0.3) 2px, rgba(237, 222, 222, 0) 1px);
-} */
+
 
 /* Adding a fading effect */
 .hero-section::after {
@@ -119,7 +113,7 @@ body{
 }
 
 .hero-title {
-  font-size: 3.5rem; /* text-3xl */
+  font-size: 2.5rem; /* text-3xl */
   font-weight: bold;
   color: white;
   text-align: center;

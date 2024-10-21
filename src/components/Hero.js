@@ -29,12 +29,14 @@ const Hero = () => {
       <section className="hero-section">
         <div className="container">
           <div className="flex flex-col items-center">
+
+               {/* Replacing the LASK.AI heading with SparklesText */}
+               <h3 className="typewriter-container title"> LASK.AI </h3>
             <h3 className="hero-title">
-              Transform Your Development Workflow with
+              Even code needs a Superhero !
             </h3>
 
-                {/* Replacing the LASK.AI heading with SparklesText */}
-                <h3 className="typewriter-container title"> LASK.AI </h3>
+             
               
             <p className="hero-description">
               From real-time code generation to smart fixing, LASK AI provides intelligent, context-aware outputs that
@@ -50,7 +52,7 @@ const Hero = () => {
     title="Download Extension"
     target='_blank'
   >
-    Download Extension
+    Try Now!
   </a>
 </div>
 
