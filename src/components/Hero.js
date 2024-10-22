@@ -1,16 +1,7 @@
 import React, { useState, useRef } from 'react'; // Import useRef with useState
-
-import ThreeCanvas from './ThreeCanvas'; // Adjust the path accordingly
 import '../styles/Hero.css';  // Custom styles for the component
 import HeroVideoDialog from './magicui/Video'; // Adjust the path accordingly
-// import AnimatedBeamMultipleOutputDemo from './magicui/Tree.ts';
-// import {AnimatedBeam} from './magicui/Tree'; // Adjust the path accordingly
-
-import Newsletter from "./Newsletter";
-import BoxReveal from "./magicui/Reveal"; // Ensure correct import path
-// import SparklesText from "./magicui/Sparkle";
-import { SparklesText } from './magicui/Sparkle';
-
+import thumbnail from '../assets/thumbnail.webp';
 
 
 const Hero = () => {
@@ -68,7 +59,7 @@ const Hero = () => {
       {/* HeroVideoDialog Component */}
       <HeroVideoDialog
         videoSrc="https://www.youtube.com/embed/2TqRJQR4AgQ?si=An2pEZojWiYPGnOo"
-        thumbnailSrc="https://startup-template-sage.vercel.app/hero-light.png"
+        thumbnailSrc={thumbnail}
         thumbnailAlt="Hero Video"
         animationStyle="from-center"
         className="my-4"
