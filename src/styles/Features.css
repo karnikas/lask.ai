@@ -45,7 +45,8 @@ body {
   margin-top: 40px; /* Center the feature item horizontally */
   padding-top: 20px;
   /* background: #056159; */
-  background: #053561;
+  /* background: #053561; */
+  background: linear-gradient(145deg,#61619f,#09243d) ;
 }
 
 /* Features Section */

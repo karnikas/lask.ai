@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
           <li><Link to="/Faq">FAQs</Link></li>
           <li><Link to="/Features">Why LASK?</Link></li>
-          <li><Link to="/ComingSoon">Supported IDEs</Link></li>
+          {/* <li><Link to="/ComingSoon">Supported IDEs</Link></li> */}
           <li><Link to="/register" className="button2" title="signup">Sign Up</Link></li> {/* Moved inside navbar-links */}
         </ul>
       </div>
