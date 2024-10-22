@@ -13,6 +13,7 @@ import Register from './components/Register';
 import Login from './components/Login';
 import Success from './components/Success';
 import Faq from './components/Faq';
+import Guide from './components/Guide';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
 
             <Route path="/success" element={<Success />} /> {/* Success page */}
             <Route path="/faq" element={<Faq />} /> {/* FAQ page */}
+            <Route path="/guide" element={<Guide />} /> {/* User Guide page */}
 
           </Routes>
           

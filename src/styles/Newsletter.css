@@ -98,7 +98,7 @@ body {
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
   .notification-container {
-    height: 10vh; /* Allow auto height on smaller screens */
+    height: auto; /* Allow auto height on smaller screens */
   }
 
   .notification-container h1 {
