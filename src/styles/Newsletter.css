@@ -18,8 +18,7 @@ body {
   margin: 50px auto; /* Center the banner */
   width: 90%; /* Full width on small screens */
   border-radius: 15px;
-  /* background: linear-gradient(145deg, #61619f, #09243d); */
-  background:linear-gradient(to right, #45139cab, #3a5ac2bf);
+  background: linear-gradient(to right, #45139cab, #3a5ac2bf);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   padding-left: 40px; /* Shift contents to the right */
 }
@@ -38,10 +37,7 @@ body {
 
 .email-input-section {
   display: flex;
-  /* justify-content: flex-start; */
   align-items: baseline;
-  align-content: center;
-  justify-items: center;
   gap: 10px;
   width: 100%;
   max-width: 600px;
@@ -53,8 +49,7 @@ body {
   padding: 8px 25px;
   border: 1px solid #ddd;
   border-radius: 40px;
-  flex: 1; /* Input takes up remaining space */
-  box-sizing: border-box; /* Ensure padding and width work together */
+  flex: 1;
   background: rgb(207, 201, 201);
 }
 
@@ -63,8 +58,8 @@ body {
   position: relative;
   display: inline-block;
   border-radius: 50px;
-  padding: 1px; /* Added padding to create space for the gradient */
-  background: linear-gradient(to right, #06b6d4, #a855f7); /* Gradient background */
+  padding: 1px;
+  background: linear-gradient(to right, #06b6d4, #a855f7);
   z-index: 1;
 }
 
@@ -74,20 +69,19 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  border-radius: 50px; /* Rounded edges */
-  pointer-events: none; /* Background should not block clicks */
+  border-radius: 50px;
+  pointer-events: none;
   z-index: 1;
 }
 
-
 .button3 {
-  padding: 8px 20px; /* Adjust padding for better alignment */
+  padding: 8px 20px;
   font-size: 0.8rem;
   font-weight: normal;
   color: white;
   background-color: black;
   border: 1px solid transparent;
-  border-radius: 50px; /* Fully rounded */
+  border-radius: 50px;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -98,11 +92,15 @@ body {
 }
 
 .button3:hover {
-  background-color: #1f2937; /* Slightly darker black on hover */
+  background-color: #1f2937;
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
+  .notification-container {
+    height: auto; /* Allow auto height on smaller screens */
+  }
+
   .notification-container h1 {
     font-size: 1.5rem;
   }
@@ -117,11 +115,27 @@ body {
   }
 
   .email-input-section input {
-    width: 100%; /* Full width input */
-    margin-bottom: 10px; /* Add margin for spacing */
+    width: 100%;
+    margin-bottom: 10px;
   }
 
-  .button2 {
-    width: 100%; /* Full width button on smaller screens */
+  .button3-container {
+    width: 100%; /* Full width button */
+  }
+
+  .button3 {
+    width: 100%; /* Full width button */
+  }
+}
+
+/* Media query for desktop site mode on mobile */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .notification-container {
+    height: 30vh; /* Reduce height for desktop site mode */
+  }
+
+  .button3 {
+    font-size: 0.7rem; /* Reduce button text size */
+    padding: 6px 16px; /* Adjust padding */
   }
 }
