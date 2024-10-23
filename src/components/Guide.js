@@ -81,6 +81,11 @@ const UserGuide = () => {
     //   }
     // ],
 
+//     Alt+b :nlp code generation 
+// Alt+enter accept code
+// Alt+c comment 
+// Alt+f fix code
+
 
       content: (
         <>
@@ -93,18 +98,18 @@ const UserGuide = () => {
             <ul>
                 <li>Use <b>ctrl+shift+i</b> to open the LASK.AI's inline chat window. </li>
                 <li>Use <b>alt+b</b> to access the Code Generation feature on the go. </li>
-                <li>To accept the code suggestions simple press the <b>ctrl+shift+a</b> key. </li>
+                <li>To accept the code suggestions simple press the <b>alt+enter</b> key. </li>
                 <li>To insert the generated code snippet in the file, use <b>tab</b> key. </li>
                 <li>Pressing on the combination of <b>alt+shift+s</b> opens up the codesuggestion box.</li>
-                <li>Simply use <b>alt+]</b> to jump onto next code suggestion and use <b>alt+[</b> to jump onto previous code suggestion.</li>
+                <li>Simply use <b>alt+]</b> to jump onto next code suggestion and use <b>alt+[</b> to jump back to previous code suggestion.</li>
 
-                <li>To fix syntax errors, use <b>aiChatbot.nlpFixCode</b></li>
-                <li>Use <b>comment</b> combination to generate comments for the selected code snippet/file.</li>
+                <li>To fix syntax errors, use <b>alt+f</b></li>
+                <li>Use <b>alt+c</b> combination to generate comments for the selected code snippet/file.</li>
 
             </ul>
             {/* <li>Use auto-completion to speed up your coding process.</li> */}
           </ul>
-          <img src="usage_image.png" alt="General Usage" className="content-image" />
+          {/* <img src="usage_image.png" alt="General Usage" className="content-image" /> */}
         </>
       ),
     },
